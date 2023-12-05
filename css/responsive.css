@@ -1,0 +1,65 @@
+@media (max-width: 1000px) {
+  :root {
+    font-size: 18px;
+  }
+
+  header {
+    top: 20px;
+  }
+
+  .portraitFull_desc {
+    display: block;
+  }
+
+  .pageContent {
+    display: block;
+  }
+
+  .portraitFull_desc {
+    margin-top: 60px;
+  }
+
+  .portraitFull_desc_sidebar {
+    margin-bottom: 40px;
+  }
+
+  .portraitFull_desc_content > * {
+    margin-bottom: 40px;
+  }
+
+  .pageContent_desc {
+    margin-top: 60px;
+  }
+
+  .pageContent_sidebar {
+    margin-bottom: 40px;
+  }
+
+  .pageContent_content > * {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  :root {
+    font-size: 16px;
+  }
+
+  header {
+    top: 10px;
+  }
+
+  .pageContent_content_columns {
+    flex-direction: column;
+  }
+
+  .pageContent_content_columns_small {
+    width: 100%;
+    order: -1;
+    margin-bottom: 5px;
+  }
+
+  .pageContent_content_columns_large {
+    width: 100%;
+  }
+}
